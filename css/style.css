@@ -30,8 +30,6 @@ nav {
   margin-right: 2rem;
 }
 
-/* header */
-
 button {
   padding: 0.8rem 1rem;
   cursor: pointer;
@@ -47,6 +45,8 @@ button#register {
   background-color: #8E2424;
   color: #FFF;
 }
+
+/* header */
 
 .about-us {
   padding: 7rem 0;
@@ -69,4 +69,34 @@ button#register {
   max-width: 50%;
   text-align: center;
   line-height: 1.5rem;
+}
+
+/* metrics */
+
+.metrics {
+  padding: 0 112px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.metrics div {
+  margin-right: 32px;
+  width: 280px;
+}
+
+.metrics h1 {
+  color: var(--main-color);
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.metrics h3 {
+  font-size: 18px;
+  color: #101828;
+  margin-bottom: 8px;
+}
+
+.metrics p {
+  font-size: 16px;
 }
