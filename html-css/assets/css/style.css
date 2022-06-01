@@ -112,7 +112,7 @@ button#register {
   gap: 1rem;
 }
 
-.hiring span {
+.hiring .red span {
   color: var(--main-color);
   display: inline-block;
   padding: 4px 12px;
@@ -135,4 +135,41 @@ button#register {
 
 .hiring image {
   width: 100%;
+}
+
+.vacancies {
+  font-size: 20px;
+  color: #101828;
+  padding: 65px 0 32px 0;
+}
+
+.vacancies h4 {
+  text-align: start;
+}
+
+.job {
+  min-width: 768px;
+  min-height: 116px;
+  padding: 24px 24px 28px 24px;
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  margin-top: 20px;
+}
+
+.job .job-title {
+  font-size: 18px;
+  color: #101828;
+  line-height: 25px;
+}
+
+.job .job-info {
+  display: flex;
+  font-size: 16px;
+  height: 28px;
+  line-height: 50px;
+}
+
+.job :nth-child(1) {
+  padding-right: 24px;
 }
