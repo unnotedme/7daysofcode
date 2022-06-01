@@ -209,7 +209,7 @@ button#register {
   margin-bottom: 20px;
 }
 
-.testimony .julia{
+.testimony .julia {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,4 +224,65 @@ button#register {
 .testimony text {
   margin: 10px 0;
   margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.testimony p {
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+/* forms */
+
+.forms {
+  background-color: #F9FAFB;
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 14px;
+}
+
+.forms h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 44px;
+  max-width: 80%;
+}
+
+.forms p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px;
+  color: var(--text-color);
+}
+
+.forms div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.forms div input {
+  border: 1px solid #D0D5DD;
+  color: #667085;
+}
+
+.forms div input,
+button {
+  padding: 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgb(16 24 40 / 5%);
+  margin-right: 5px;
+}
+
+.forms div button {
+  border: 1px solid #8E2424;
+  background-color: #8e2424;
+  color: white;
 }
