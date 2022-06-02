@@ -60,9 +60,9 @@ and then, depending on the answer, it should show one of the following messages:
 
 your challenge today is to create the possible destinations of a game, in which the user can choose:
 
-1. if you want to go to the front-end area or go to the Back-end area.
+1. if you want to go to the front-end area or go to the back-end area.
 
-2. if you are in the front-end area, if you want to learn react or learn Vue. if you are in the back-end area, you can learn c# or learn java.
+2. if you are in the front-end area, if you want to learn react or learn vue. if you are in the back-end area, you can learn c# or learn java.
 
 3. afterwards, regardless of the previous choices, the user will be able to choose between continuing to specialize in the chosen area or continuing to develop to become a fullstack. you must display a specific message on the screen for each choice.
 
