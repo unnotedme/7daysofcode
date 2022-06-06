@@ -1,0 +1,28 @@
+floating-button {
+    position: relative;
+}
+
+.floating-button .floating-button-register {
+    position: absolute;
+    right: 16px;
+    bottom: 70px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #4894FF;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+    z-index: 5;
+    border: 0;
+}
+
+button.floating-button-register span {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url('../assets/icons/plus.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

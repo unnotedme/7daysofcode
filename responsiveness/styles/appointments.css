@@ -1,127 +1,120 @@
 .appointments-date {
-    display: flex;
-    align-items: center;
-    height: 46px;
-  }
-  
-  .appointments ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .appointments-card {
-    background: var(--card-background);
-    
-    display: flex;
-    flex-direction: column;
-  
-    width: 328px;
-    height: 160px;
-    padding: 16px 16px 0;
-    border-radius: 8px;
-    margin-bottom: 16px;
-  }
-  
-  .appointments-card-title {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .appointments-card-pacient {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-  }
-  
-  .appointments-card-pacient>img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-  
-    margin-right: 16px;
-  }
-  
-  .appointments-card-pacient>div {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .appointments-card-title .appointments-card-chat {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: none;
-    
-    background: var(--secondary-grey);
-    
-    background-image: url('../assets/icons/chat.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .appointments-card-pacient strong {
-    font-size: 14px;
-  }
-  
-  .appointments-card-pacient span {
-    font-size: 12px;
-    color: var(--texto-claro);
-    display: flex;
-    align-items: center;
-  }
-  
-  .appointments-card-pacient span>span {
-    width: 16px;
-    height: 16px;
-    margin-right: 4px;
-  
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .appointments-card-pacient span>span.camera {
-    background-image: url('../assets/icons/camera.svg');
-  }
-  .appointments-card-pacient span>span.mapa {
-    background-image: url('../assets/icons/pin.svg');
-  }
-  
-  .appointments-card-conteudo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-    width: 100%;
-    height: 82px;
-  
-    border-top: 1px solid #46464619;
-  }
-  
-  .appointments-card-conteudo p{
-    font-size: 12px;
-    margin: 8px 0;
-  }
-  .appointments-card-acoes{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .appointments-card-acoes button{
-    min-width: 140px;
-    width: 100%;
-    height: 48px;
-  
-    border-radius: 8px;
-  
-    padding: 13px 16px;
-    margin-right: 16px;
-    font-weight: 500;
-    font-size: 14px;
-  }
-  
-  .appointments-card-acoes button:only-of-type{
-    margin: 0;
-  }
+  display: flex;
+  align-items: center;
+  height: 46px;
+}
+
+.appointments ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointments-card {
+  background: var(--card-background);
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  height: 160px;
+  padding: 16px 16px 0;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.appointments-card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointments-card-pacient {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.appointments-card-pacient>img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.appointments-card-pacient>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointments-card-title .appointments-card-chat {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: var(--secondary-grey);
+  background-image: url('../assets/icons/chat.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.appointments-card-pacient strong {
+  font-size: 14px;
+}
+
+.appointments-card-pacient span {
+  font-size: 12px;
+  color: var(--light-text);
+  display: flex;
+  align-items: center;
+}
+
+.appointments-card-pacient span>span {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.appointments-card-pacient span>span.camera {
+  background-image: url('../assets/icons/camera.svg');
+}
+
+.appointments-card-pacient span>span.pin {
+  background-image: url('../assets/icons/pin.svg');
+}
+
+.appointments-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 82px;
+  border-top: 1px solid #46464619;
+}
+
+.appointments-card-content p {
+  font-size: 12px;
+  margin: 8px 0;
+}
+
+.appointments-card-actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointments-card-actions button {
+  min-width: 140px;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  padding: 13px 16px;
+  margin-right: 16px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.appointments-card-actions button:only-of-type {
+  margin: 0;
+}

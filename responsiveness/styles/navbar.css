@@ -1,0 +1,60 @@
+section.navbar {
+    width: 100%;
+    height: 58px;
+    border-radius: 12px 12px 0 0;
+    background: var(--white);
+    filter: drop-shadow(0 -1px 3px #46464625);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .navbar nav {
+    width: 100%;
+  }
+
+  .navbar nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .navbar nav .nav-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-text);
+    font-size: 12px;
+  }
+
+  .navbar nav .nav-action:first-child {
+    color: var(--primary-colour);
+  }
+  
+  .navbar nav .nav-action span {
+    width: 24px;
+    height: 24px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .navbar nav .nav-action span.appointments {
+    background-image: url('../assets/icons/calendar.svg');
+  }
+
+  .navbar nav .nav-action span.clients {
+    opacity: 30%;
+    background-image: url('../assets/icons/clients.svg');
+  }
+
+  .navbar nav .nav-action span.reports {
+    opacity: 30%;
+    background-image: url('../assets/icons/reports.svg');
+  }
+
+  .navbar nav .nav-action span.menu {
+    opacity: 30%;
+    background-image: url('../assets/icons/menu.svg');
+  }
