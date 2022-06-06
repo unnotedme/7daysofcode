@@ -1,0 +1,16 @@
+  .first-button {
+      border: none;
+      background: var(--secondary-colour);
+      color: var(--white);
+  }
+
+  .second-button {
+      background: var(--white);
+      border: 1px solid var(--grey);
+  }
+
+  .third-button {
+      border: none;
+      background: var(--primary-colour);
+      color: var(--white);
+  }
