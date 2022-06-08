@@ -26,3 +26,72 @@ button.floating-button-register span {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.floating-button ul {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+    padding: 80vh 0 20px 0;
+    padding-bottom: 130px;
+    transition: .3s ease;
+      transform: scale(0);
+      transform-origin: 85% bottom;
+    background: radial-gradient(circle at bottom right, black, 20%, transparent);
+    z-index: 2;
+}
+
+.floating-button-register:focus + ul {
+    opacity: 1;
+	transform: scale(1);
+}
+
+.floating-button>ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+
+.floating-button>ul li>span {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    font-size: 12px;
+    background: var(--white);
+    border-radius: 20px;
+    padding: 0 8px;
+    margin-right: 4px;
+}
+
+button.floating-button-item {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: relative;
+    background: #4894FF;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+    border: 0;
+}
+
+button.floating-button-item span {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button.floating-button-item span.local {
+    background-image: url('../assets/icons/pin fab.svg');
+}
+
+button.floating-button-item span.remote {
+    background-image: url('../assets/icons/camera fab.svg');
+}
